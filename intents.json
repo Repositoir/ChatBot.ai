@@ -1,0 +1,27 @@
+{"intents":  [
+  {"tag":  "greetings",
+    "patterns" :  ["hello", "hey", "hows it going?", "hi"],
+    "responses" : ["HELLO", "HEY", "What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns":  ["what is your name?", "what should I call you?"],
+  "responses": ["I am ChatBot"]
+  },
+
+  {"tag": "weather",
+  "patterns":  ["what is the weather?", "will it rain?"],
+  "responses": ["rain? yes", "its sunny"]
+  },
+
+  {"tag": "finance",
+  "patterns":  ["what should I invest", "mutual funds"],
+  "responses": ["invest in high risk funds", "invest in all"]
+  },
+
+  {"tag": "coding",
+  "patterns":  ["can you code", "programming languages"],
+  "responses": ["I can code python", "python, c, cpp, c sharp"]
+  }
+]}
+
